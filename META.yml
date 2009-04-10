@@ -26,10 +26,12 @@ requires:
   File::Spec::Functions: 3.2701
   File::Temp: 0
   FindBin: 0
+  List::Util: 0
   Test::Builder: 0.47
   Test::Builder::Module: 0.47
   Text::Diff: 0
   perl: 5.008005
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+  repository: http://github.com/szabgab/test-snapshots
+version: 0.02

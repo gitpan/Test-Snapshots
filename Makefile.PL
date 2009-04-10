@@ -25,11 +25,17 @@ requires       'File::Temp'               => '0';
 requires       'File::Spec'               => '3.2701';
 requires       'File::Spec::Functions'    => '3.2701';
 requires       'FindBin'                  => 0;
+requires       'List::Util'               => 0;
 requires       'Test::Builder'            => '0.47';
 requires       'Test::Builder::Module'    => '0.47';
 requires       'Text::Diff'               => 0;
 
 test_requires  'Test::More'               => '0.47';
 
+
+#homepage       
+#bugtracker     
+repository     'http://github.com/szabgab/test-snapshots';
+#MailingList    
 
 WriteAll;
